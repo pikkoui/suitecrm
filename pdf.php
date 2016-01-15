@@ -39,7 +39,7 @@ if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
  ********************************************************************************/
 
 
-global $beanList, $beanFiles, $locale; //testing 
+global $beanList, $beanFiles, $locale;
 
 if(isset($_REQUEST['module']) && isset($_REQUEST['action']) && isset($_REQUEST['record'])) {
 	$currentModule = clean_string($_REQUEST['module']);
